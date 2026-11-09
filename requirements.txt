@@ -1,0 +1,7 @@
+streamlit>=1.60
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+shap>=0.45
+matplotlib>=3.8
+fpdf2>=2.7
