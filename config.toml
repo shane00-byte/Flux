@@ -1,0 +1,24 @@
+[theme]
+font = "sans serif"
+
+[theme.light]
+primaryColor = "#145C6B"
+backgroundColor = "#F7F9FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1A2332"
+
+[theme.dark]
+primaryColor = "#2DA8B8"
+backgroundColor = "#0F1720"
+secondaryBackgroundColor = "#1B2530"
+textColor = "#E6EBF0"
+
+[client]
+# Hides developer-only items (Deploy, Rerun, Clear cache) while keeping
+# viewer items (Settings incl. the light/dark toggle, Print) accessible.
+# This is Streamlit's supported mechanism -- unlike CSS-hiding the
+# toolbar div, it won't also take out the sidebar's re-expand button.
+toolbarMode = "viewer"
+
+[server]
+headless = true
